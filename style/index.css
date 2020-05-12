@@ -7,6 +7,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* use flexbox to style header */
+
 header {
     display: flex;
     padding: 1.5em;
@@ -34,4 +36,9 @@ nav {
 
 
 
-/* use flexbox to style header */
+
+
+/* do mobile styles, at least 2 media queries*/
+/* mobile will be all one column, widescreen will be wireframe opt 2  */
+
+/* project gallery will be row items of img and one line captions. parent will have column direction; child, row. one img, one caption combos per flex item */
