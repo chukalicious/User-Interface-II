@@ -1,9 +1,37 @@
 /* Add CSS styling here */
 
-/* do css reset */
+/* do css reset ~ done and linked */ 
 
-body {
-    color: brown;
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
+
+header {
+    display: flex;
+    padding: 1.5em;
+}
+
+h1 {
+    font-size: larger;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-link {
+    padding: .5em 1.5em;
+    
+}
+
+.nav-link a {
+    text-decoration: none;
+    background-color: black;
+    color: cornsilk;
+    padding: .5em 1em;
+}
+
+
 
 /* use flexbox to style header */
