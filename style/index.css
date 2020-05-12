@@ -1,2 +1,9 @@
 /* Add CSS styling here */
 
+/* do css reset */
+
+body {
+    color: brown;
+}
+
+/* use flexbox to style header */
