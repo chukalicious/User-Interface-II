@@ -12,6 +12,7 @@
 header {
     display: flex;
     padding: 1.5em;
+    justify-content: flex-end;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
 
 nav {
     display: flex;
+    
 }
 
 .nav-link {
@@ -33,6 +35,23 @@ nav {
     color: cornsilk;
     padding: .5em 1em;
 }
+
+.hero {
+    display: flex;
+    margin: 5em auto;
+    width: 85%;
+    height: 500px; 
+    justify-content: center;
+    border: blue solid 3px; 
+    
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%
+
+}
+
 
 
 
