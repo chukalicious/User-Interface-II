@@ -150,12 +150,32 @@ body {
 
     .img-container {
         width: 95%;
-        
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(41, 40, 43);
+        padding-top: 2em; 
+    }
+
+    button {
+        margin-top: 1.5em;
+        background-color: goldenrod;
+        width: 100px;
+        padding: .5em 1em;
+
+    }
     
 
-
+    footer img {
+        width: 50px;
+        height: 50px;
+        padding: 1em .5em;
+    }
 
 
   }
@@ -163,9 +183,8 @@ body {
 
 
 /* do mobile styles, at least 2 media queries*/
-/* mobile will be all one column, widescreen will be wireframe opt 2  */
 
-/* project gallery will be row items of img and one line captions. parent will have column direction; child, row. one img, one caption combos per flex item */
+
 
 
 
