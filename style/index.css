@@ -98,6 +98,10 @@ body {
         display: flex;
     }
 
+    .contact {
+        display: flex;
+    }
+
     .about h2 {
         padding-top: 3em;
         width: 30%;
@@ -133,6 +137,11 @@ body {
         width: 65px;
         height: 65px;
         padding: 1em .5em;
+    }
+
+    .sm-icon {
+        width: 45px;
+        height: 45px;
     }
     
 }
