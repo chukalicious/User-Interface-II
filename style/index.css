@@ -174,7 +174,7 @@ body {
 
 @media only screen and (max-width: 500px) {
     body {
-      background-color: palevioletred;
+      
     }
     header {
         display: flex;
@@ -235,17 +235,47 @@ body {
         display: flex;
         margin: auto;
         width: 90%;
-        /* flex-direction: column; */
+        flex-direction: column;    
         flex-wrap: wrap;
         align-items: center;
     }
 
     .gallery img {
         margin: 1em;
+        width: 250px;
+        height: 250px;
     }
 
     .img-container {
         width: 95%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: 550px; 
+    }
+
+    .about h2,
+    .contact h2 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .about p {
+        padding: 1rem 1.5rem; 
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 2rem;
+    }
+
+    .contact {
+        height: 550px; 
+    }
+
+    .contact p {
+        font-size: 2rem;
+        padding: 1.5rem; 
     }
 
     footer {
@@ -254,15 +284,15 @@ body {
         align-items: center;
         width: 100%;
         height: 150px;
-        background-color: rgb(41, 40, 43);
+        background-color: dimgrey;
         padding-top: 2em; 
     }
 
     button {
-        margin-top: 1.5em;
-        background-color: goldenrod;
-        width: 100px;
-        padding: .5em 1em;
+        font-size: 1.5rem; 
+        background-color: black;
+        color: white; 
+        padding: .5em; 
 
     }
     
