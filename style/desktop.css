@@ -47,18 +47,24 @@
     .row {
         display: flex;
         justify-content: center;
-        /* border: blue dashed 5px; */
+        /* border: blue dashed 1px; */
     }
 
     .row figure { 
-        /* border: green solid 5px;  */
+        /* border: green solid 1px; */ 
         width: 32%; 
         margin: 0 auto;
+        padding: .5rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
 
     .row figure img {
-        margin: 1em;
-        /* border: hotpink solid 3px; */
+        margin: auto; 
+        /* border: hotpink solid 1px; */
+        
     }
 
     footer {
