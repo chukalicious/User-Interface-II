@@ -173,9 +173,10 @@ body {
 
 
 @media only screen and (max-width: 500px) {
-    body {
+    /* body {
       
-    }
+    } */
+
     header {
         display: flex;
         flex-direction: column;
