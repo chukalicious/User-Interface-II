@@ -80,14 +80,22 @@
         height: 45vh;
     }
 
-    .right h2 {
+    .left h2 {
         font-size: 10rem;
         letter-spacing: 1.5rem;
         padding-top: 5rem;
     }
 
-    .right {
+    .left {
+        display: flex;
+        flex-direction: column;
         height: 60vh;
+
+    }
+
+
+    form {
+        font-size: 4rem;
     }
 
     footer {
