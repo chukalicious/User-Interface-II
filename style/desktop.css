@@ -1,6 +1,45 @@
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 950px) {
     /* start of desktop styles */
     
+    header {
+        display: flex;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        width: 50%;
+        padding: 1em;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%; 
+    }
+    
+    .nav-link {
+        margin: 1rem;
+    }
+
+    .hero {
+        width: 70%;
+        height: 700px;
+        margin: 7rem auto 7rem auto;
+    }
+
+    .hero img {
+        object-fit: fill;
+        width: 100%;
+    }
+
+    .gallery {
+        margin-top: 4rem;
+        display: flex; 
+    }
+
+
     }
     
