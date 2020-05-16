@@ -59,6 +59,7 @@
         flex-direction: column;
         justify-content: center;
         
+        
     }
 
     .row figure img {
@@ -90,9 +91,17 @@
         display: flex;
         flex-direction: column;
         height: 60vh;
-
     }
 
+    .alt-contact p {
+        font-size: 3rem;
+        padding: 2em 0 1em 0; 
+    }
+
+    .alt-contact li {
+        font-size: 2.5rem;
+        padding: .5em 0;
+    }
 
     form {
         font-size: 4rem;
