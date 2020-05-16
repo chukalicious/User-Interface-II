@@ -67,6 +67,19 @@
         
     }
 
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .left, 
+    .right {
+        margin-top: 4rem;
+        width: 40%;
+        margin-left: 3rem;
+        height: 45vh;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
