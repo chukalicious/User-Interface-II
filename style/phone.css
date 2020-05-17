@@ -43,16 +43,16 @@
     
 
     .hero {
-        width: 95%; 
+        width: 98%; 
         height: 65vh;
-        background-color: coral;
-        border: cornflowerblue solid 1px;
+        /* background-color: coral;
+        border: cornflowerblue solid 1px; */
         margin: 2rem auto; 
     }
 
     /* Eureka! This is a responsive image! */
     .hero img {
-        
+        object-fit: contain;
         padding: 2rem;
         width: 100%;
         height: 100%;
@@ -60,20 +60,63 @@
     }
     
     .gallery {
-        width: 85%; 
+        width: 95%; 
         margin: 0 auto;
-        padding: .5rem 1rem;
+        padding: 2rem 1rem;
         display: flex;
         flex-direction: column;
-        border: darkgreen solid 2px;
-        background-color: gold;
     
     }
 
+    .gallery figure {
+        /* border: red solid 2px; */ 
+        padding: 2em; 
+        margin: 1rem 0 ;
+    }
+
+    .gallery figure:hover {
+        background-color: lightpink;
+    }
+
+    .gallery figcaption {
+        text-align: center;
+        padding-top: .5rem;
+        font-size: 1.5rem;
+    }
     .gallery img {
-        padding: .5rem; 
+        /* padding: .5rem;  */
         width: 100%;
         height: 100%;
+    }
+
+    footer {
+        width: 99%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border-top: lightgray solid 1px;
+    }
+
+    footer button {
+        width: 40%;
+        font-size: 2rem;
+        margin: 2rem auto;
+        padding: .5rem 1rem;
+        background-color: gray;
+    }
+    .icons {
+        display: flex;
+        margin: 0 auto 1rem auto;
+        width: 35%; 
+        /* border: blue solid 1px;  */
+        justify-content: space-between;
+
+    }
+
+    .icons img {
+        width: 30%; 
+        padding: .2rem .2rem; 
+        /* border: red solid 1px; */
     }
     
 }
