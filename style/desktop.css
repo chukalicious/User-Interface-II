@@ -83,28 +83,41 @@
 
     .about {
         display: flex;
-        justify-content: space-evenly;
+        width: 75%;
+        margin: 5rem auto;
+        padding-top: 5rem; 
+        
+        /* border: red solid 2px;  */
+        
     }
 
-    .left, 
-    .right {
-        margin-top: 4rem;
-        width: 40%;
-        margin-left: 3rem;
-        height: 45vh;
+    .about h2 {
+        width: 50%; 
+        font-size: 5rem;
+        padding: 3rem 3rem; 
     }
 
-    .left h2 {
-        font-size: 10rem;
-        letter-spacing: 1.5rem;
-        padding-top: 5rem;
+    .about h2:hover {
+        background-color: #838383;
+        color: white;
     }
 
-    .left {
-        display: flex;
-        flex-direction: column;
-        height: 60vh;
+    .about p {
+        width: 50%; 
+        font-size: 3rem;
+        padding: 3rem 3rem; 
+        line-height: 1.2;
+        letter-spacing: .2rem;
     }
+
+    .about p:hover {
+        background-color: #838383;
+        color: white;
+    }
+
+    
+
+    
 
     .alt-contact p {
         font-size: 3rem;
