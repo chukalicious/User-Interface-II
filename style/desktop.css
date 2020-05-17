@@ -5,34 +5,40 @@
     header {
         display: flex;
         width: 100%;
-        font-size: 1.5em;
+        border: red 2px solid; 
     }
     
     h1 {
-        font-size: 4rem;
-        width: 50%;
-        padding: 1em;
+        width: 60%;
+        padding: 1rem;
+        font-size: 6rem;
     }
     
     nav {
         display: flex;
-        justify-content: flex-end;
-        width: 50%; 
+        width: 40%; 
+        border: green 4px solid;
+        justify-content: space-between; 
     }
     
     .nav-link {
-        margin: 1rem;
+        border: darkblue 3px solid; text-align: center;
+        width: 25%; 
+        font-size: 2rem;
+        padding: 2rem 2rem;
     }
 
     .hero {
-        width: 80%;
-        height: 900px;
-        margin: 7rem auto 7rem auto;
+        width: 85%;
+        /* height: fit-content;  */
+        height: 70vh;
+        margin: 10rem auto 7rem;
+
     }
 
     .hero img {
-        object-fit: fill;
-        height: 800px;
+        object-fit: cover;
+        height: 100%; 
         width: 100%;
     }
 
@@ -40,7 +46,7 @@
         margin: 0 auto; 
         display: flex;
         flex-direction: column;
-        width: 75%;
+        width: 85%;
         padding-bottom: 4rem;
     }
 
@@ -51,20 +57,27 @@
     }
 
     .row figure { 
-        /* border: green solid 1px; */ 
+        /* border: green solid 5px;  */
         width: 32%; 
         margin: 0 auto;
-        padding: .5rem; 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-        
+        font-size: 4rem;
+        text-align: center;
+        padding: 3rem; 
+        margin: 1rem
+    }
+
+    .row figure:hover {
+        background-color: blueviolet;
     }
 
     .row figure img {
         margin: auto; 
         /* border: hotpink solid 1px; */
+        width: 100%;
+        height: 100%;
         
     }
 
